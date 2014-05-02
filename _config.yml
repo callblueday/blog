@@ -1,4 +1,4 @@
-baseurl: /blog
+baseurl: /blog/
 # permalink: /blog/:categories/:year/:month/:day/:title.html
 name: callblueday 的博客
 markdown: redcarpet
