@@ -1,0 +1,43 @@
+### 安装 jekyll
+$ gem install jekyll
+~ $ jekyll new my-awesome-site
+~ $ cd my-awesome-site
+~/my-awesome-site $ jekyll serve
+// => Now browse to http://localhost:4000
+
+如果出现依赖包`/usr/bin/ruby1.9.1 extconf.rb`的错误，执行
+    sudo apt-get install ruby1.9.1-dev
+
+
+### 将博客放在二级域名下
+主要的问题是更改根目录的位置。在`_config.yml`中设置：
+
+  baseurl: /blog/
+然后利用`{{site.baseurl}}` 变量将文中出现的位置设置做调整。
+```
+<!-- _layouts/default.html -->
+<link rel="stylesheet" href="{{site.baseurl}}/css/syntax.css">
+<link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+
+<!-- index.html -->
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl}}{{post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+```
+经过以上修改后，直接访问 `http://somesite.com/blog/` 即可到目标页面
+
+### 给 blog 添加 `category`
+- [插件-为 Jekyll 博客添加 category 分类](http://pizn.github.io/2012/02/23/use-category-plugin-for-jekyll-blog.html)
+- [](http://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category)
+- [文章分类索引](http://blog.segmentfault.com/skyinlayer/1190000000406017)
+
+
+### 相关资源
+- [jekyll](http://jekyllrb.com/)
+- [jekyll 模板变量](http://jekyllrb.com/docs/variables/)
+- [用 github、markdown和jekyll搭建博客](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+- [Running Your Jekyll Blog from a Subdirectory](http://joshbranchaud.com/blog/2013/03/02/Running-Your-Jekyll-Blog-from-a-Subdirectory.html)
+- [参考博客](http://arademaker.github.io/)
