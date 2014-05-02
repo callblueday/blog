@@ -1,1 +1,1 @@
-访问 http://callblueay.github.io/blogsouh
+访问 http://callblueay.github.io/blog
