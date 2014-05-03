@@ -11,3 +11,5 @@ layout: default
 - life(随笔)
 - idea(思路)
 - code(技术相关)
+
+在 code 和 idea 方面，如果有朋友对其中某些部分有兴趣，欢迎提 pull request 进行完善。
