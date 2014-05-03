@@ -10,11 +10,10 @@
 ### 了解 seo 的基本知识
 
 
-
 ### 基本工具准备
-- photoshop cs6：用来切图还不错
+- photoshop cs6：切图
 - sublime：掌握其特性，提高效率
-- emmet：快捷键盘很不错
+- emmet：快捷键很不错
 - less：管理 css 的目的是减少冗余代码
 
 
@@ -40,13 +39,13 @@ html页面结构的快速搭建，这个可以利用 emmet 来进行，另一点
 
 ### css
 - 类的基本命名
-- container
-- wrapper
-- active
-- item
-- itemlist
-- clear
-- tip
+  - container
+  - wrapper
+  - active
+  - item
+  - itemlist
+  - clear
+  - tip
 
 
 ### less 的使用规则
@@ -57,8 +56,5 @@ html页面结构的快速搭建，这个可以利用 emmet 来进行，另一点
   - 利用 Mixins 来使用继承很方便，例如定义 .b {}
   - @import 文件的分类管理使用起来比较方便
 - 使用原则
-  - 利用 mixins 简化冗余代码
-  - 少使用嵌套，避免使编译出来的 css 代码较为
-
-
-### 如何提升网页的打开速度
+  - 利用 mixins 减少冗余代码
+  - 少使用嵌套，避免使编译出来的 css 代码变重

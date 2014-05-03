@@ -8,7 +8,6 @@ authorized_keys2  id_dsa       known_hosts
 config            id_dsa.pub
 
 
-
 // 我的
 config  id_rsa  id_rsa_github  id_rsa_github.pub  known_hosts
 
