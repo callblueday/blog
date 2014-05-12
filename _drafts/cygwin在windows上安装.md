@@ -32,3 +32,7 @@ vim /etc/passwd
 - cygwin 安装 ssh
 运行 setup.exe (cygwin的安装程序)
 选择 openssh 进行安装
+
+
+- cygwin 博客
+  http://book.51cto.com/art/201107/278830.htm
