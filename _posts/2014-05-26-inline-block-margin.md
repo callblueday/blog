@@ -21,7 +21,7 @@ categories: code
       word-spacing:0;
     }
   </pre>
-  <ul class="code4">
+  <ul class="code code4">
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
@@ -43,7 +43,7 @@ categories: code
        letter-spacing: 0;
     }
   </pre>
-  <ul class="code2">
+  <ul class="code code2">
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
@@ -59,7 +59,7 @@ categories: code
       font-size: 12px;
     }
   </pre>
-  <ul class="code">
+  <ul class="code code1">
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
@@ -82,7 +82,7 @@ categories: code
        word-spacing: 0;
     }
   </pre>
-  <ul class="code3">
+  <ul class="code code3">
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>

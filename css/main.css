@@ -166,7 +166,11 @@ a:visited { color: #654321; }
   background-color: #333;
 }
 
-/* my style */
+/*
+  -----------------------------------------
+    My style
+  -----------------------------------------
+*/
 pre {
   display: block;
   border: 2px dashed #ccc;
@@ -176,31 +180,29 @@ pre {
 h3 span {
   font-size: 14px;
 }
-.code, .code2, .code3, .code4 {
+.code {
+  list-style: none;
   margin: 10px;
   background: lightyellow;
   padding: 20px;
 }
-ul {
-  list-style: none;
-}
 
-li {
+.code li {
   display: inline-block;
   width: 120px;
   height: 30px;
   line-height: 30px;
   border: 1px solid #ccc;
 }
-li {
+.code li {
   *display: inline;
 }
 
 /* 利用font-size 来解决 */
-.code  {
+.code1  {
   font-size: 0; /* safari 无效，其他有效 */
 }
-.code li {
+.code1 li {
   font-size: 12px;
 }
 
