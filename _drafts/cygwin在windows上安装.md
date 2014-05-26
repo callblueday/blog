@@ -26,7 +26,7 @@ bzip2
  
 wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
 chmod.exe +x /bin/apt-cyg
- 
+  
 apt-cyg安装源为ftp://mirror.mcs.anl.gov，设置为网易镜像源。
  
 apt-cyg -m http://mirrors.163.com/cygwin/
