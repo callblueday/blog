@@ -34,6 +34,11 @@ $ gem install jekyll
 - [](http://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category)
 - [文章分类索引](http://blog.segmentfault.com/skyinlayer/1190000000406017)
 
+### 给 blog 绑定域名
+如果你不想用http://username.github.com/jekyll_demo/这个域名，可以换成自己的域名。
+具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如example.com或者xxx.example.com。
+如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向username.github.com（请将username换成你的用户名）。此外，别忘了将_config.yml文件中的baseurl改成根目录"/"。
+
 
 ### 相关资源
 - [jekyll](http://jekyllrb.com/)
