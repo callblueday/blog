@@ -13,10 +13,10 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #fffacd;
+  background-color: #fff;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
+  text-align: center; 
   color: #222;
   padding: 0 15px;
 }
@@ -167,3 +167,77 @@ a:visited { color: #654321; }
 }
 
 /* my style */
+pre {
+  display: block;
+  border: 2px dashed #ccc;
+  min-width: 400px;
+  margin: 20px;
+}
+h3 span {
+  font-size: 14px;
+}
+.code, .code2, .code3, .code4 {
+  margin: 10px;
+  background: lightyellow;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+li {
+  *display: inline;
+}
+
+/* 利用font-size 来解决 */
+.code  {
+  font-size: 0; /* safari 无效，其他有效 */
+}
+.code li {
+  font-size: 12px;
+}
+
+/* 利用 letter-sapcing 来解决 */
+.code2  {
+   letter-spacing: -8px; 
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+  ::i-block-chrome, .code2 {
+    letter-spacing: -4px; /* hack for safari */
+  }
+}
+.code2 li {
+   letter-spacing: 0;
+}
+
+/* 利用 word-sapcing 来解决 */
+.code3  {
+   word-spacing: -8px; 
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+  ::i-block-chrome, .code3 {
+    word-spacing: -20px; /* hack for safari */
+  }
+}
+.code3 li {
+   word-spacing: 0;
+}
+
+/* 利用 display:table; 提供的方法 */
+.code4  {
+  width: 100%;
+  display:table;  /* 调教webkit*/
+  word-spacing:-1em;
+}
+.code4 li {
+  word-spacing:0;
+}
