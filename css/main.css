@@ -208,7 +208,7 @@ h3 span {
 
 /* 利用 letter-sapcing 来解决 */
 .code2  {
-   letter-spacing: -8px; 
+   letter-spacing: -4px; /* chrome 浏览器下有时是 -8px, 这时候对 safari 就得做兼容 */
 }
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
@@ -222,7 +222,7 @@ h3 span {
 
 /* 利用 word-sapcing 来解决 */
 .code3  {
-   word-spacing: -8px; 
+   word-spacing: -4px;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {

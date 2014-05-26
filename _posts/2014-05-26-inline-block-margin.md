@@ -31,7 +31,7 @@ categories: code
   <h3>letter-spacing<span>(safari下需要做兼容处理，其他浏览器没有问题)</span></h3>
   <pre>
     .code2  {
-       letter-spacing: -8px; 
+       letter-spacing: -4px; /* chrome 浏览器下有时是 -8px, 这时候对 safari 就得做兼容 */
     }
     @media screen and (-webkit-min-device-pixel-ratio:0)
     {
@@ -70,7 +70,7 @@ categories: code
   <h3>word-spacing<span>(safari下无效，其他浏览器没有问题)</span></h3>
   <pre>
     .code3  {
-       word-spacing: -8px; 
+       word-spacing: -4px; 
     }
     @media screen and (-webkit-min-device-pixel-ratio:0)
     {
