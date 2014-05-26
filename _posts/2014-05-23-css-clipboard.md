@@ -127,7 +127,8 @@ text-align:center;
 
 声明为inline-block 之间存在间距
 --------------------------------------
-解决办法：使用 display:table，并结合 word-spacing; 参见文章 http://callblueday.github.io/blog//code/2014/05/26/inline-block-margin.html
+解决办法：使用display:table，并结合word-spacing。参见文章 [http://callblueday.github.io/blog//code/2014/05/26/inline-block-margin.html](http://callblueday.github.io/blog//code/2014/05/26/inline-block-margin.html)
+
 ```css
 ul  {
     width: 100%;
