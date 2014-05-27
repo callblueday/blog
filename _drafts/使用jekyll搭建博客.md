@@ -40,6 +40,11 @@ $ gem install jekyll
 如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向username.github.com（请将username换成你的用户名）。此外，别忘了将_config.yml文件中的baseurl改成根目录"/"。
 
 
+https://www.dnspod.cn/Domain#callblueday.com
+中的每一行就是添加的一条记录：
+
+@ | cname |默认 |callblueday.github.io| - |600
+
 ### 相关资源
 - [jekyll](http://jekyllrb.com/)
 - [jekyll 模板变量](http://jekyllrb.com/docs/variables/)
