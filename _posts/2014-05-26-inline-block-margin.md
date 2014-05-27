@@ -88,3 +88,15 @@ categories: code
     <li>我是一个小淘气</li>
     <li>我是一个小淘气</li>
   </ul>
+
+
+ie6、ie7 对 inline-block 不支持的 bug 解决办法
+----------------------------------------------
+以下是代码片段：
+```
+.selector { display: inline-block } 
+.selector { *display: inline }
+```
+注意：一定要分开写，如果写在同一个选择器里是不起作用的，这是IE的一个BUG。
+
+在IE下，display: inline-block只是触发了元素的layout。比如将display: inline-block设置到div上，只能保证这个div拥有块元素的特征（可以设置宽度，高度等），但还是会产生换行。接下来要设置display: inline，使其不产生换行。对行级元素则不影响。

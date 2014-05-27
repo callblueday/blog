@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" charset="utf-8"/> 
+  <title>表单页面</title>
+  <link rel="stylesheet" href="../css/litec.css" />
+  <style type="text/css">
+    body{
+      font-size:14px;
+    } 
+    
+    ul{
+      list-style:none;
+      margin:20px auto;
+      width:500px;
+    } 
+    ul li{
+      height:40px;
+      line-height: 40px;
+    } 
+</style> 
+</head> 
+<body> 
+  <ul> 
+    <li>个人姓名：
+      <input type="text" class="input" />
+    </li> 
+    <li>性别：
+      <input type="radio" name="sex" class="radio" value="1" id="radio1"/><label for="radio1">男</label> 
+      <input type="radio" name="sex" class="radio" value="2" id="radio2"/><label for="radio2">女</label>
+    </li> 
+    <li>年龄：
+      <select name="age" class="select"> 
+        <option value="">请选择</option> 
+        <option>20以下</option> 
+        <option>20-30</option> 
+        <option>30-40</option> 
+        <option>40以上</option> 
+      </select>
+    </li>
+    <li>
+    我兴趣：
+      <input type="checkbox" class="checkbox" name="interest" id="net" /><label for="net">上网</label> 
+      <input type="checkbox" class="checkbox" name="interest" id="music" /><label for="music">音乐</label>
+      <input type="checkbox" class="checkbox" name="interest" id="game" /><label for="game">游戏</label>
+      <input type="checkbox" class="checkbox" name="interest" id="film" /><label for="film">电影</label>
+      <input type="checkbox" class="checkbox" name="interest" id="others" /><label for="others">其他</label>
+    </li> 
+
+    <li>
+      <input type="file" />
+    </li>
+
+
+  </ul> 
+
+  <pre style="display:none">
+    表单页面，为了使表单元素和文字都垂直居中对齐，加个样式input,select{vertical-align:middle}，文本框和下拉框都没问题，但是单选框和复选框就杯具了。 
+    大多表现：单选，复选和文字无间距，单选文字偏上，复选偏上。 
+
+    关于这些问题网上有人发表了看法，用table搞定一切。这个也是一种方法，哥也不BS。 
+    对于ie6,7下的文字间距问题，网上看到有人说设置width:14px就好了，我试了下发现width:13px更佳。这个问题解决。
+
+    对于文字偏上的问题，试了vertical-align下的所有属性都不行。后来发现vertical-align是可以设置数值的，真是白混了这么久。 
+    单选设置了vertical-align:-2px;复选设置vertical-align:-3px;就ok了。拿到ie6,7下测试，发现差了1px，使用了hack搞定。(ie6,7就是神奇) 
+  </pre>  
+</body> 
+</html> 
