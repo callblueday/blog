@@ -44,6 +44,12 @@ https://www.dnspod.cn/Domain#callblueday.com
 中的每一行就是添加的一条记录：
 
 @ | cname |默认 |callblueday.github.io| - |600
+（设置无效时，删除记录，重新添加一个）
+
+_config.yml 中 baseurl 中的baseurl内容
+baseurl: /blog/
+
+
 
 ### 相关资源
 - [jekyll](http://jekyllrb.com/)
