@@ -37,7 +37,7 @@ $ gem install jekyll
 ### 给 blog 绑定域名
 如果你不想用http://username.github.com/jekyll_demo/这个域名，可以换成自己的域名。
 具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如example.com或者xxx.example.com。
-如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向username.github.com（请将username换成你的用户名）。此外，别忘了将_config.yml文件中的baseurl改成根目录"/"。
+如果绑定的是顶级域名，则DNS要新建一条A记录（本博客是在https://www.dnspod.cn/中进行指定的），指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向username.github.com（请将username换成你的用户名）。此外，别忘了将_config.yml文件中的baseurl改成根目录"/"。（经测试baseurl地址为空，资源地址正常。）
 
 
 https://www.dnspod.cn/Domain#callblueday.com
@@ -47,8 +47,11 @@ https://www.dnspod.cn/Domain#callblueday.com
 （设置无效时，删除记录，重新添加一个）
 
 _config.yml 中 baseurl 中的baseurl内容
-baseurl: /blog/
 
+```
+baseurl: 
+```
+经测试，当在CNAME文件里写入了`callblueday`后，此文件中的baseurl地址为空，资源地址才是正常。
 
 
 ### 相关资源
