@@ -1,4 +1,4 @@
-baseurl: //
+baseurl: /blog
 name: callblueday 的博客
 markdown: redcarpet
 pygments: true
