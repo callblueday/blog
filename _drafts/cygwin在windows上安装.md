@@ -44,7 +44,7 @@ wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
 chmod.exe +x /bin/apt-cyg
 
 
-- apt-cyg 安装 zsh
+### apt-cyg 安装 zsh
 oh-my-zsh会自动安装好，在Linux下通过：
 chsh -s /bin/zsh
 可以让Z-Shell成为默认Shell，但cygwin下没有这条命令。但你可以更改/etc/passwd文件来达到更改用户shell的效果。
