@@ -5,6 +5,9 @@ date:   2014-05-03 01:58:40
 categories: code
 ---
 
+* 前端工具
+  -  [css选择器的浏览器支持](http://labs.qianduan.net/css-selector/)
+
 * javascript
   - [speaking javascript](http://speakingjs.com/)
   - 《JavaScript高级程序设计》（书名很唬人，实际作者写的特别好，由浅入深）了解了一下JavaScript垃圾回收机制，对内存泄露有了一定的认识。

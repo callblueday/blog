@@ -36,6 +36,7 @@ ul, li {
   ---------------------------------
 */
 .form-item {
+  display: block;
   text-align: left;
   margin-bottom: 8px;
   color: #333;
@@ -54,6 +55,7 @@ ul, li {
 }
 
 .input-label {
+  min-width: 60px;
   font-family: '宋体', sans-serif;
   font-size: 14px;
   display: inline-block;
@@ -75,28 +77,28 @@ ul, li {
 }
 
 
-/* 使 input 与 label 保持同一水平线 */
-input,
-select {
+/* select */
+input, select {
   vertical-align:middle;
 }
 
 select {
   height: 30px;
   line-height: 30px;
+  margin-left: -2px;
+  margin-left: -4px\9;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
   select,
   input[type="file"] {
-    line-height: 24px; /* 在其他浏览器中正常的高度是 30px */
+    line-height: 24px; /* hack for safari, 在其他浏览器中正常的高度是 30px */
   }
 }
 
-
-/* select */
-.select{ /*边框*/
+/* 带边框的 select  */
+.select{
   border:1px solid #ccc;
   line-height:22px;
   padding:4px 3px;
@@ -125,24 +127,28 @@ button, .btn {
   cursor: pointer;
 }
 
+.submit-area {
 
-/* checkbox / radio */
-
-input[type=checkbox] + label,
-input[type=radio] + label {
-  cursor: pointer; 
 }
 
-.checkbox,.radio{
+.submit-area>.btn {
+  *margin-right: 10px;
+}
+
+
+/* checkbox */
+.form-item-inline.checkbox + .form-item-inline.checkbox,
+.form-item-inline.radio + .form-item-inline.radio, {
+  margin-left: 10px;
+}
+.checkbox input, .radio input {
   *width:13px;
-} 
-.radio{
+}
+.radio input {
   vertical-align:-2px;
-  *vertical-align:-1px;
 } 
-.checkbox{
+.checkbox input {
   vertical-align:-3px;
-  *vertical-align:-2px;
 } 
 
 
@@ -216,7 +222,7 @@ input[type=radio] + label {
     line-height: 48px;
     font-size: 18px;
     text-decoration: none;
-    color: default;
+    color: #ec6f5f;
   }
   .sitename {
     *display: inline; /* hack for ie7 */
@@ -344,14 +350,17 @@ input[type=radio] + label {
 
 /* footer */
 .footer {
-  width: 100%;
   background: #1f272d;
   color: #666;
   text-align: center;
   font-family: '微软雅黑', sans-serif;
   font-size: 12px;
-  padding-top: 3px;
+  padding: 2px 0;
 }
+
+  .footer p {
+    line-height: 20px;
+  }
 
   .footer p:nth-child(1) {
     color: #fff;
