@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>litecss</title>
+  <link rel="stylesheet" href="../css/litecss.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a class="sitename" href="javascript:;">hello</a>
+      <ul class="nav inline">
+        <li class="nav-item inline">
+          <a href="">1</a>
+          <ul class="sub-menu">
+            <li class="sub-item inline"><a href="">2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item inline"><a href="">1</a></li>
+        <li class="nav-item inline"><a href="">1</a></li>
+      </ul>
+    </div> <!-- header ends -->
+
+    <div class="div main-wrapper">
+      <h3>form</h3>
+    </div> <!-- main wrapper ends -->
+
+    <div class="footer">
+      <p>footer1</p>
+      <p>footer2</p>
+    </div> <!-- footer ends -->
+
+  </div> <!-- container ends -->
+
+  <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script>
+    // 导航栏二级菜单
+    $(".nav-item").hover(
+      function() {
+        $(this).find('.sub-menu').show();
+      },
+      function(){
+        $(this).find('.sub-menu').hide()
+      });
+  </script>
+</body>
+</html>
