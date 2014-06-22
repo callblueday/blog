@@ -5,6 +5,36 @@ date:   2014-05-23 15:29:40
 categories: code
 ---
 
+
+迁移网站必须的目录
+----------------------------
+ads/
+ask/
+backupdata/
+images/
+imgs/
+js/
+style/
+templets/
+uploads/
+
+所谓的cms系统，实际上就是一套路由系统：路径配置，转换系统
+
+
+生成目录
+---------
+
+- yiyuangaikuang
+  "/yiyuangaikuang -> "/shxqyy/yiyuangaikuang
+- fuke
+- nanke
+- byby
+
+- {dede:global.cfg_basehost/} -> {dede:global.cfg_cmsurl/}
+- /shxqyy -> {dede:global.cfg_cmsurl/}
+
+
+
 站点配置
 --------
 
@@ -97,16 +127,6 @@ Do.global('/shxqyy/templets/xqmb/new_js/base.js');
 target="_blank"
 
 
-配置网站的栏目目录生成位置
-----------------------------
-/fuke
-/byby
-/nanke
-/yiyuangaikuang
-
-所谓的cms系统，实际上就是一套路由系统：路径配置，转换系统
-
-
 dedecms广告设置
 ---------------
 在dedecms后台 模块->广告管理->更改广告
@@ -132,11 +152,13 @@ html文档里调用广告标签：
       <br>医院地址：上海市浦东新区外高桥季景路9号(近春晖路) 
     </p>
   </div>
+4-yiyuangaikuang_4
+  <a href="/shxqyy/yiyuangaikuang/0829_466.html" target="_blank"><img src="/shxqyy/ads/1000x100zx.jpg" width="1000" height="100" alt=""></a>
 6-fuke
   <a href="/shxqyy/yiyuangaikuang/0829_452.html" target="_blank"><img src="/shxqyy/ads/1000_180_bbt.jpg" alt="" width="1000" height="180"></a>
 7-byby
   <a href="/shxqyy/yiyuangaikuang/0829_467.html" target="_blank"><img src="http://www.shxqyy.net/ads/1000_180_yunyhun.jpg" width="1000" alt=""></a>
-8-nake
+5、8-nake
   <a href="/shxqyy/yiyuangaikuang/0829_461.html" target="_blank"><img src="http://www.shxqyy.net/ads/1000-180qianliexian.jpg" alt=""></a>
 9-top-right
   <a href="/shxqyy/yiyuangaikuang/0829_467.html" target="_blank"><img src="http://www.shxqyy.net/ads/yy283-73.jpg" width="280" height="68" alt=""></a>
