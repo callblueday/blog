@@ -54,8 +54,42 @@ vim /etc/passwd
 
 
 ### cygwin 如何使用 windows 上程序
+在cygwin的终端上可以访问到windows中程序，其访问是通过`cygdrive`来进行的，例如
+访问安装在D盘的sublime:
+
+```
+/cygdrive/d/Program\ Files/Sublime\ Text\ 3/sublime_text.exe
+```
+
+进入c盘
+
+```
+cd /cygdrive/c
+```
+
+在c盘中调用sublime，可以在zshrc中添加`alias`
+
+```
+vim ~/.zshrc
+
+alias subl="/cygdrive/d/Program\ Files/Sublime\ Text\ 3/sublime_text.exe";
+```
+
+或者直接在命令行中写入
+
+```
+echo 'alias subl="/cygdrive/d/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"' >> ~/.zshrc
+```
+
+### 对于cmd
+For Windows cmd.exe you could just add the sublime text installation directory to your PATH environment variable, this would allow you to type:
+sublime_text file.rb
+Personally, I add a doskey (in a .bat file set to autorun with cmd) so I can type subl file.rb:
+
+> doskey subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $*
 
 
+### cygwin 安装
 - cygwin 多窗口
 使用 Poderosa 来进行登录
 
@@ -110,3 +144,13 @@ $ make install
 
 ### cygwin 配色
 背景色 #002240(rgb：0,34,64)
+
+
+
+$'\r':command not found 错误
+-------------------------------
+Cywin中运行的问题一段脚本
+出现很多这样的提示$'\r':command not found。
+
+原因是：cygwin 脚本是用UNIX的  EOL  “\n".  而你的脚本用了DOS的 EOL , "\n\r".
+先对你的脚本跑一下  dos2unix  就行了。
