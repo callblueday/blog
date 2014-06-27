@@ -6,6 +6,13 @@ categories: code
 ---
 
 
+以根目录为设置
+--------------
+
+注意模板中 base-href的设置
+<base href="{dede:global.cfg_basehost/}/templets/spec/10yue/" />
+
+
 迁移网站必须的目录
 ----------------------------
 ads/
@@ -70,6 +77,7 @@ DedeCms安装目录：/子目录
 
 因数据多，所以需要使用批量替换的方法，知道以上表名字段后就可以灵活替换了，现介绍两种方法：
 
+
 方法一：使用phpMyadmin用SQL语句替换
 
 如：UPDATE dede_uploads SET url= REPLACE(url,'/uploads/','/子目录/')
@@ -85,9 +93,9 @@ DedeCms安装目录：/子目录
 
 字段 body 
 
-被替换内容  uploads/allimg 
+被替换内容  uploads/allimg
 
-替换为  news/uploads/allimg 
+替换为  shxqyy/uploads/allimg
 
 
 
@@ -127,6 +135,11 @@ Do.global('/shxqyy/templets/xqmb/new_js/base.js');
 target="_blank"
 
 
+每个栏目中的模板设置
+网站栏目管理 -> 高级选项 -> 文章命名规则
+/shxqyy/yiyuangaikuang/{M}{D}_{aid}.html
+
+
 dedecms广告设置
 ---------------
 在dedecms后台 模块->广告管理->更改广告
@@ -143,9 +156,9 @@ html文档里调用广告标签：
 
   
 1-yiyuangaikuang
-  <a href="/shxqyy/yiyuangaikuang/0829_452.html" target="_blank"><img src="/ads/1000_180_bbt.jpg" alt="" width="1000" height="180"></a>
+  <a href="/yiyuangaikuang/0829_452.html" target="_blank"><img src="/ads/1000_180_bbt.jpg" alt="" width="1000" height="180"></a>
 2-yiyuangaikuang_2
-  <a href="/shxqyy/yiyuangaikuang/0829_454.html" target="_blank"><img src="http://www.shxqyy.net/ads/1000x100fk.jpg" width="1000" height="100" alt=""></a>
+  <a href="/yiyuangaikuang/0829_454.html" target="_blank"><img src="/ads/1000x100fk.jpg" width="1000" height="100" alt=""></a>
 3 - fuke_article
   <div class="wsts">
     <p>如果您还有什么疑问请点击<a onclick="javascript:openswt()" href="javascript:void(0);">“咨询专家”</a>进行一对一沟通，专家会免费为您详细解答！如您已经明白了，请点击<a onclick="javascript:openswt()" href="javascript:void(0);">“预约专家”</a>进行网上预约挂号，即可享受：免排队优先就诊免挂号费和专家会诊费、各种援助和优惠。
@@ -153,17 +166,17 @@ html文档里调用广告标签：
     </p>
   </div>
 4-yiyuangaikuang_4
-  <a href="/shxqyy/yiyuangaikuang/0829_466.html" target="_blank"><img src="/shxqyy/ads/1000x100zx.jpg" width="1000" height="100" alt=""></a>
+  <a href="/yiyuangaikuang/0829_466.html" target="_blank"><img src="/ads/1000x100zx.jpg" width="1000" height="100" alt=""></a>
 6-fuke
-  <a href="/shxqyy/yiyuangaikuang/0829_452.html" target="_blank"><img src="/shxqyy/ads/1000_180_bbt.jpg" alt="" width="1000" height="180"></a>
+  <a href="/yiyuangaikuang/0829_452.html" target="_blank"><img src="/ads/1000_180_bbt.jpg" alt="" width="1000" height="180"></a>
 7-byby
-  <a href="/shxqyy/yiyuangaikuang/0829_467.html" target="_blank"><img src="http://www.shxqyy.net/ads/1000_180_yunyhun.jpg" width="1000" alt=""></a>
+  <a href="/yiyuangaikuang/0829_467.html" target="_blank"><img src="/ads/1000_180_yunyhun.jpg" width="1000" alt=""></a>
 5、8-nake
-  <a href="/shxqyy/yiyuangaikuang/0829_461.html" target="_blank"><img src="http://www.shxqyy.net/ads/1000-180qianliexian.jpg" alt=""></a>
+  <a href="/yiyuangaikuang/0829_461.html" target="_blank"><img src="/ads/1000-180qianliexian.jpg" alt=""></a>
 9-top-right
-  <a href="/shxqyy/yiyuangaikuang/0829_467.html" target="_blank"><img src="http://www.shxqyy.net/ads/yy283-73.jpg" width="280" height="68" alt=""></a>
+  <a href="/yiyuangaikuang/0829_467.html" target="_blank"><img src="/ads/yy283-73.jpg" width="280" height="68" alt=""></a>
 10-yiyuangaikuang_3
-  <a href="/shxqyy/yiyuangaikuang/0909_1037.html" target="_blank"><img src="http://www.shxqyy.net/ads/hgg.gif" alt="" width="1000" height="100"></a>
+  <a href="/yiyuangaikuang/0909_1037.html" target="_blank"><img src="/ads/hgg.gif" alt="" width="1000" height="100"></a>
 
 
 
@@ -181,4 +194,28 @@ $dedecms->typename = '织梦链';
 if($type == 'dedecms') $row[] = $dedecms;*/
 
 就是将这三句代码注释掉就可以了。
+
+
+
+
+去掉联系电话
+-------------
+
+1. html中引入53kf链接
+2. js中设置链接点击窗口
+
+style不一样
+ref自动获取
+kf = 邮箱不一样，nanke 005，fuke006
+
+男科　
+
+
+
+dedecms 专题模板管理
+------------------
+制作一个专题页面，需要准备2样东西：内容、模板，当然如果你没有自己设计的模板文件，系统默认是自带了一套专题页的风格的，可以在后台［核心］-［内容模型管理］，点击专题类型的模板会查看到以下内容：
+文档模板：/templets/default/article_spec.htm ［修改］
+列表模板：/templets/default/list_spec.htm ［修改］
+频道封面模板：/templets/default/index_spec.htm ［修改］
 
