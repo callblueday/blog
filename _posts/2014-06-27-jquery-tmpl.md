@@ -8,32 +8,36 @@ categories: code
 基本使用
 ------------
 1. 引入基本库
-<code>
+
+```
   <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
   <script src="js/jquery.tmpl.js" type="text/javascript"></script>  
-</code>
+```
 
 1. 定义数据结构
-<code>
+
+```
 var clientData = [
      { name: "Rey Bango", age: 42, id: 1, phone: [ "954-600-1234", "954-355-5555" ] },
      { name: "Mark Goldberg", age: 51, id: 2, phone: ["954-600-1234", "954-355-5555"] },
      { name: "Jen Statford", age: "25", id: 3, phone: ["954-600-1234", "954-355-5555"] }
 ];
-</code>
+```
 
 1. 定义模板和变量
-<code>
+
+```
   <script id="clientTemplate" type="text/html">
       <p><a href="clients/${id}">${name} - Age: ${age}</a></p>
   </script>
-</code>
+```
 
 
 1. 进行数据渲染并加载到dom中
-<code>
+
+```
   $("#clientTemplate").tmpl(clientData).appendTo("div");
-</code>
+```
 
 
 细节使用
@@ -46,7 +50,8 @@ var clientData = [
 模板嵌套
 ---------
 
-<code>
+
+```
 <script id="phoneTemplate" type="text/html">
     <ul>{{each phone}}<li>${$value}</li>{{/each}}</ul>
 </script>
@@ -55,23 +60,25 @@ var clientData = [
     <p><a href="clients/${id}">${name} - Age: ${age}</a></p>
     {{tmpl($data) "#phoneTemplate"}}
 </script>
-</code>
+```
 
 
 获取本地数据
 ------------
 使用jquery的getJson方法可以做到
-<code> 
+
+``` 
 $.getJSON('data/data.json', function(data, textStatus) {
   // data
 }
-</code>
+```
 
 
 获取远程数据
 -------------
 存在跨域，则使用jsonp格式请求
-<code>
+
+```
 $.ajax({
     url : 'url',
     type : 'GET',
@@ -97,12 +104,13 @@ callback([
     { name: "Mark Goldberg", age: 51, id: 2, phone: ["954-600-1234", "954-355-5555"] },
     { name: "Jen Statford", age: "25", id: 3, phone: ["954-600-1234", "954-355-5555"] }
 ]);
-</code>
+```
 
 
 简单demo
 ----------
-<code>
+
+```
   <!DOCTYPE html>
   <html lang="en">
   <head> 
@@ -142,7 +150,7 @@ callback([
 
   </body> 
   </html> 
-</code>
+```
 
 
 补充一下jsonp的说明
