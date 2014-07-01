@@ -1,1 +1,1 @@
-访问 http://callblueday.github.io/blog/
+访问 http://callblueday.com
