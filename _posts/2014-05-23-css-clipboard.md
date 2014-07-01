@@ -121,7 +121,7 @@ IE7 text-align:center not working
 Its bug is IE7 : 参考 http://haslayout.net/css/Text-Align-Bug
 
 ```css
-widhth:auto;
+width:auto;
 text-align:center;
 ```
 
@@ -140,3 +140,13 @@ ul li {
 }
 ```
 
+
+IE6/IE7/IE8下float:right的异常及其解决方法
+------------------------------------------
+使用float:right;的时候都遇到过向右浮动不好使的情况，比如，对于类似这段html代码：<h2>小标题<a href="#">更多&gt;&gt;</a></h2>，对a设置向右浮动，在IE下会跑到第二行显示。
+
+1、最简单的方法就是调换顺序，将需要右浮动的元素写在前面。写成这样：<h2><a href="#">更多&gt;&gt;</a>小标题</h2> 。但是我们觉得这样排列顺序的写法有违背html文档语义化的嫌疑，因此，不建议大量使用这种写法。
+
+2、父标签使用相对定位，子元素使用绝对定位。由于IE里元素右浮动会影响到它的兄弟元素，所以为了避开有浮动，可以采用position定位，达到同样的显示效果。代码这里从略。
+
+3.浮动一左一右，元素块清晰区分开。<h2><span>小标题</span><a href="#">更多&gt;&gt;</a></h2> 这里对 h2 span{float:left;} 对h2 a{float:right;}。如果是新闻列表<li><a href="#">新闻标题一</a> <span>2012-05-03</span></li>则css可以定义为ul li a{float:left;}，ul li span{float:right;}。
