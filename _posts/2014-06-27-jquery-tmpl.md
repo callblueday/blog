@@ -170,6 +170,60 @@ callback([
 7、为了便于客户端使用数据，逐渐形成了一种非正式传输协议，人们把它称作JSONP，该协议的一个要点就是允许用户传递一个callback参数给服务端，然后服务端返回数据时会将这个callback参数作为函数名来包裹住JSON数据，这样客户端就可以随意定制自己的函数来自动处理返回数据了。
 
 
+jquery tmpl index
+----------------------
+<script id="topMenuTemplate" type="text/x-jQuery-tmpl">
+{{if data}}
+{{each data}}
+<div class="tbtn" data-z_index="${loop??}"> //<--I need to use loop count here too!!
+    <div id="${name}" class="tab_non">
+        <div class=left></div>
+        <div class=right></div>
+        <div class=bg>
+            <div class=icon></div>
+            <div class=font id=topbutton>${name}</div>
+        </div>
+        <div class="close"></div>
+    </div>
+</div>
+{{/each}}
+{{/if}}
+</script>
+
+
+Since 1.4.3, you do have access to an index:
+
+{{each( index, value ) collection}} content {{/each}}
+
+
+Note, the index here is just a custom string value you would like to use in place of index, but jQuery will default to $index for the current index value.
+
+<li>
+    Title: ${Name}.
+    {{each Languages}}
+        ${$index + 1}: <em>${$value}. </em>
+    {{/each}}
+</li>
+So in your example, you could use the $index variable in place of ${loop}:
+
+<div class="tbtn" data-z_index="${index}">
+
+
+jquery tmpl 输出html
+-----------------------
+<script type="text/x-jquery-tmpl" id="linkTemplate">
+    <h2>${Name}</h2>
+    <div>{{html link}}</div>
+</script>
+<div id="linklist"></div>
+<script type="text/javascript">
+    var linkList = [
+    {Name:"百度一下，你就知道",link:"<a href=\"http://www.baidu.com\">百度一下</a>"},
+    {Name:"谷歌一下，你就知道",link:"<a href=\"http://www.g.cn\">谷歌一下</a>"}
+    ];
+    $("#linkTemplate").tmpl(linkList).appendTo("#linklist");
+</script>
+
 
 参考链接
 ---------
