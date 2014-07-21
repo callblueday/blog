@@ -51,7 +51,11 @@ _config.yml 中 baseurl 中的baseurl内容
 ```
 baseurl: 
 ```
-经测试，当在CNAME文件里写入了`callblueday`后，此文件中的baseurl地址为空，资源地址才是正常。
+经测试，当在CNAME文件里写入了`callblueday.com`后，此文件中的baseurl地址为空，资源地址才是正常。
+
+
+### 添加disqus
+https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
 
 
 ### 相关资源
