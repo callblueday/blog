@@ -109,6 +109,29 @@ input:-webkit-autofill {
 还找到一张解决办法，就是给input添加autocomplete=‘off’也就是把他的自动完成关闭了。
 
 
+关于列表排列的对齐问题
+-----------------------
+
+```html
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+````
+通常当对li元素进行margin值的设定时，会遇到想要设置靠近最左或者最右的元素0边距，
+从而使整体宽度与父容器一致的问题。现在统一采用的办法如下（兼容ie7+）
+
+```css
+li {
+  margin-left:20px;
+}
+ul {
+  margin-left:-20px;
+}
+```
+
+
 ie6/7 postion:absolute bug
 ---------------------------
 IE6/IE7的解析是在position:absolute之后,仍然会按照普通文档流的解析来进行。

@@ -29,3 +29,8 @@ categories: code
   - a/b测试管理[Optimizely](https://www.optimizely.com/)，
   - 代码编译[CodeKit](http://incident57.com/codekit/)
   - 新网站初步完成后，使用[webpagetest.org](http://www.webpagetest.org/)进行测试
+
+cdn库
+-----------
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="http://ep.fasteng.net/common/jquery.tmpl.min.js"></script>

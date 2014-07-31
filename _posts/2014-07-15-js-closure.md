@@ -2,7 +2,6 @@
 layout: post
 title:  "js 闭包小示例"
 date:   2014-07-15 15:30:40
-comments: true
 categories: code
 ---
 
