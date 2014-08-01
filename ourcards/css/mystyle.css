@@ -38,6 +38,7 @@
 }
 
 .main-content {
+  width: 640px;
   padding: 60px 160px;
   font-family: '微软雅黑', sans-serif;
   font-size: 14px;
