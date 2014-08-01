@@ -1,0 +1,61 @@
+.qz-left.profile-left {
+  display: none;
+}
+
+.my-content {
+  width: 960px;
+  height: 650px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.my-header, .my-footer {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background: #F2FDFF;
+  position: absolute;
+}
+
+.my-header {
+  top: 0;
+  left: 0;
+}
+.my-footer {
+  bottom: 0;
+  left: 0;
+}
+.my-footer span {
+  float: right;
+  margin-right: 30px;
+}
+
+.main-content {
+  padding: 60px 160px;
+  font-family: '微软雅黑', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.main-content p {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.flower {
+  position: absolute;
+  left: 410px;
+  bottom: 62px;
+}
+.moon {
+  position: absolute;
+  left: 434px;
+  bottom: 62px;
+}
