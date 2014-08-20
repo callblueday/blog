@@ -132,14 +132,26 @@ a:visited { color: #654321; }
 
 /* standard */
 .post pre {
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 5px;*/
+}
+
+.post pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 
 .post ul, .post ol {
