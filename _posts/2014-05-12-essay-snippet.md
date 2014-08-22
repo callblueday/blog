@@ -17,7 +17,7 @@ categories: idea
         margin-left: 10px;
     }
     .essay-snippet {
-        padding: 10px 15px;
+        padding: 10px 15px 15px 0;
         font-family: '微软雅黑', sans-serif;
     }
 </style>
@@ -69,6 +69,6 @@ categories: idea
 
 <div class="essay-snippet">
 做每个项目，代码可以写的不好，但一定需要一个明确的思路。比如代码结构怎么安排，
-文件怎么组织，都应该是有理由才这么做。<br>
+文件怎么组织，都应该是有理由才这么做。
 其实也就是在学搭结构 <span class="essay-time">2014-08-16</span>
 </div>
