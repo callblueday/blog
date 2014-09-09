@@ -68,7 +68,17 @@ categories: idea
 
 
 <div class="essay-snippet">
-做每个项目，代码可以写的不好，但一定需要一个明确的思路。比如代码结构怎么安排，
-文件怎么组织，都应该是有理由才这么做。
+做每个项目，代码可以写的不好，但一定需要一个明确的思路。比如代码结构怎么安排，文件怎么组织，都应该是有理由才这么做。
 其实也就是在学搭结构 <span class="essay-time">2014-08-16</span>
+</div>
+
+
+<div class="essay-snippet">
+    写函数尽量`智能化`，实际就是考虑全面，尽量考虑意外的输入，和没有输入。
+</div>
+
+
+<div class="essay-snippet">
+    想开始建站
+    <span class="essay-time">2014-09-07</span>
 </div>

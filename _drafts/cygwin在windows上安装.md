@@ -154,3 +154,7 @@ Cywin中运行的问题一段脚本
 
 原因是：cygwin 脚本是用UNIX的  EOL  “\n".  而你的脚本用了DOS的 EOL , "\n\r".
 先对你的脚本跑一下  dos2unix  就行了。
+
+
+### 查看cygwin的版本
+cygcheck -c cygwin
