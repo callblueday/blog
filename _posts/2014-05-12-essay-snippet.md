@@ -82,3 +82,11 @@ categories: idea
     想开始建站
     <span class="essay-time">2014-09-07</span>
 </div>
+
+
+<div class="essay-snippet">
+    当你对某种实现或思路完全没想法的时候怎么办，没有办法无中生有，只能去
+    研究别人怎么写的。
+    花时间写好一段代码，比写十段垃圾代码要有意思的多。
+    <span class="essay-time">2014-09-10</span>
+</div>
