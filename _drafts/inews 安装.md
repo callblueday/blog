@@ -1,23 +1,27 @@
-The json extension is missing. Install it or recompile php without --disable-json
+教程参考
+=========
+http://fatesinger.com/20?replytocom=47
+
+
+下载inews
+==========
+https://github.com/Trimidea/inews
+
+
 
 php 安装json扩展  
 ===============
 sudo apt-get install php5-json
 
-教程：
-http://fatesinger.com/20?replytocom=47
 
-配置php.ini。首先打开php.ini文件：
+The json extension is missing. Install it or recompile php without --disable-json
 
+* 配置php.ini。
 
+首先打开php.ini文件：
 sudo subl /etc/php5/cli/php.ini
 
-
-#vim /etc/php.ini
-注：这里我的php.ini是在/etc目录下，如果你的php.ini不在这里，请修改路径为你的php.ini所在的路径。
-
 直接在最后一行加上下面这段话：
-
 extension=json.so
 然后输入:wq保存退出。
 
