@@ -90,3 +90,12 @@ categories: idea
     花时间写好一段代码，比写十段垃圾代码要有意思的多。
     <span class="essay-time">2014-09-10</span>
 </div>
+
+
+<div class="essay-snippet">
+    代码标准：
+        - 简洁，不冗余
+        - 结构化
+        - 可维护性强
+    <span class="essay-time">2014-09-16</span>
+</div>
