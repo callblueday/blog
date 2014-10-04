@@ -94,8 +94,18 @@ categories: idea
 
 <div class="essay-snippet">
     代码标准：
+
         - 简洁，不冗余
         - 结构化
         - 可维护性强
     <span class="essay-time">2014-09-16</span>
+</div>
+
+<div class="essay-snippet">
+    学习框架，更多的是理解其设计的理念，比如文件结构，api接口的通信路径，从而对编程本身加深理解。
+    框架不过就是用设计好的（也有约定俗称的习惯）结构让代码之间更清晰，结构化的进行通信。其中`通信`
+    是一个很重要的点。它包含了文件结构的安排，api接口的路径设定以及通信方式。
+
+    像[RESTFul](http://zh.wikipedia.org/zh/REST)，就是一种web服务的设计风格和理念。[阮一峰-理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+    <span class="essay-time">2014-10-4</span>
 </div>
