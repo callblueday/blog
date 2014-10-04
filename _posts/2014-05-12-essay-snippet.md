@@ -109,3 +109,9 @@ categories: idea
     像[RESTFul](http://zh.wikipedia.org/zh/REST)，就是一种web服务的设计风格和理念。[阮一峰-理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
     <span class="essay-time">2014-10-4</span>
 </div>
+
+<div class="essay-snippet">
+    代码，坚持写，持续练习和理解，长期积累，必有所提高。
+    坚持是一方面，找到优质的资源去学习，是另一个重要的点。
+    <span class="essay-time">2014-10-4</span>
+</div>
