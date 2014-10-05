@@ -113,3 +113,10 @@ layout: default
     代码最后还是思维的表达，语言只是工具。
     <span class="essay-time">2014-10-4</span>
 </div>
+
+<div class="essay-snippet">
+    写应用，有思路，有方法，
+    剩下就是先构建结构，定义好接口。
+    把流程走通,细节再慢慢补充。
+    <span class="essay-time">2014-10-5</span>
+</div>
