@@ -11,18 +11,16 @@ layout: default
         border-radius: 4px;
         font-size: 12px;
         padding: 2px 3px;
-        margin-left: 10px;
 
-        position: relative;
-        padding-left: 80px;
-        padding-top: 0;
+        position: absolute;
+        left: 0px;
+        top: 0;
+        
     }
     .essay-snippet {
-        padding: 10px 15px 15px 0;
-        font-family: '微软雅黑', sans-serif;
-        position: absolute;
-        left: -10px;
-        top: 0;
+        padding: 0px 15px 15px 80px;
+        font-family: '微软雅黑', sans-serif;       
+        position: relative;
     }
 </style>
 
