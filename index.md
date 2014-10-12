@@ -18,7 +18,7 @@ layout: default
         
     }
     .essay-snippet {
-        padding: 0px 15px 15px 0px;
+        padding: 40px 15px 15px 0px;
         font-family: '微软雅黑', sans-serif;       
         position: relative;
         line-height: 1.8em;
