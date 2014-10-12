@@ -18,9 +18,11 @@ layout: default
         
     }
     .essay-snippet {
-        padding: 0px 15px 15px 80px;
+        padding: 0px 15px 15px 0px;
         font-family: '微软雅黑', sans-serif;       
         position: relative;
+        line-height: 1.8em;
+        margin: 20px 0;
     }
 </style>
 
@@ -77,6 +79,7 @@ layout: default
 
 <div class="essay-snippet">
     写函数尽量`智能化`，实际就是考虑全面，尽量考虑意外的输入，和没有输入。
+    <span class="essay-time">2014-08-25</span>
 </div>
 
 
