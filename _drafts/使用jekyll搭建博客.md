@@ -64,3 +64,6 @@ https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-inst
 - [用 github、markdown和jekyll搭建博客](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 - [Running Your Jekyll Blog from a Subdirectory](http://joshbranchaud.com/blog/2013/03/02/Running-Your-Jekyll-Blog-from-a-Subdirectory.html)
 - [参考博客](http://arademaker.github.io/)
+
+
+http://yihui.name/cn/about/ - jeklly 站点
