@@ -14,6 +14,8 @@ categories: code
 - [flexSlider2](http://flexslider.woothemes.com/)
   比较轻量级
 
+- [flexSlider](http://www.woothemes.com/flexslider/)
+
 - [Elastislide](https://github.com/codrops/Elastislide)
   比较小巧，有点胶片的效果
 
@@ -84,6 +86,10 @@ scrollTo
   - jquery.datepicker.js
 
 
+数字滚动插件
+----------
+  - [counter](https://github.com/tombruijn/counter.js)
+
 代理工具
 ----------
   - [fidder2](http://www.cnblogs.com/TankXiao/archive/2012/02/06/2337728.html)
@@ -124,6 +130,27 @@ js其他插件
 
   - [TweenLite](http://greensock.com/tweenlite) 动画细节调整库
 
+
+css3 动画
+---------
+http://daneden.github.io/animate.css/
+
+移动端框架
+-----------
+  - [Framework7](http://www.idangero.us/) 好像只有ios适配
+  - [goratchet](http://goratchet.com/examples/)
+  - [everypost](http://everypost.me/)
+
+sublime
+-----------
+- git 插件
+  gitgutter: 可以显示当前文件中修改的行，需要配合指定的皮肤进行使用。
+  
+  例如皮肤：Cobalt2
+
+  [GitGutter官网](https://github.com/wesbos/cobalt2)
+
+
 css
 -----
 - normalize.css v.1.1
@@ -141,21 +168,47 @@ css
   http://tools.maxcdn.com/procssor/
 
 
+将本地地址转换成线上地址
+---------------------
+- [ngrok](https://ngrok.com/) 内网穿透利器
+
+
 字体
 ------------
 - typekit
   https://typekit.com/
   一个集合了网络中很多多可用的字体的库
 
-  [使用方法](http://www.chinaz.com/free/2012/0815/269267.shtml)
+- [使用方法](http://www.chinaz.com/free/2012/0815/269267.shtml)
+
+- [fontello] 用图表代替字体生成器
+  - http://fontello.com/
 
 
-cdn
+html模板
+----------
+ - [handlebarsjs](http://handlebarsjs.com/)
+
+公共服务
 ------
-        # jquery
-        <script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
-        # jquery tmpl
-        <script src="http://ep.fasteng.net/common/jquery.tmpl.min.js"></script>
+- [360公共库cdn](http://libs.useso.com/)
+
+- 具体
+  ```
+  # jquery
+  <script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
+  # jquery tmpl
+  <script src="http://ep.fasteng.net/common/jquery.tmpl.min.js"></script>
+  ```
+
+rss 阅读器
+----------
+Reeder
+
+mac 资源
+--------
+  - [资源站](http://soft.macx.cn/)
+  - [pc6](http://www.pc6.com/)
 
 
 搭建静态站点
@@ -163,6 +216,34 @@ cdn
   - [cabinjs](http://www.cabinjs.com/)
   - [jeklly]() 配合github page
   - [hexo](http://hexo.io/)
+  - [ghost](https://ghost.org/)
+    - 可以配合aws进行搭建
+
+代码托管站点
+----------
+  - [perforce](http://www.perforce.com/)
+  - [github](http://github.com)
+  - [bitbucket](http://bitbuck)
+    可以有私人仓库，并邀请成员
+
+
+js工具
+------
+  - [jquery 简易api文档](http://jqapi.com/)
+
+云主机
+--------
+  - [aws](http://aws.amazon.com/cn/)
+    amazon的云主机
+
+
+pm2
+----
+  - 服务器自动管理
+
+
+npm--forever
+--------------
 
 
 模板
@@ -184,11 +265,11 @@ cdn
 ------------
   - [http://v3.bootcss.com/examples/blog/](http://v3.bootcss.com/examples/blog/)
 
-
 ### API 相关
   - [api书写指南](http://get.jobdeer.com/343.get)
   - [api文档生成工具](https://github.com/interagent/prmd)
-
+  - [api模拟工具](http://www.getpostman.com/docs)
+    还可以创建团队，有邀请等机制
 
 ### 电子商务开源网站
   - Ecshop
@@ -201,6 +282,20 @@ cdn
   - a/b测试管理[Optimizely](https://www.optimizely.com/)，
   - 代码编译[CodeKit](http://incident57.com/codekit/)
   - 新网站初步完成后，使用[webpagetest.org](http://www.webpagetest.org/)进行测试
+
+
+修改http请求头工具
+------------------
+  - [smart header](https://chrome.google.com/webstore/detail/smart-header/ncgnmldbedmbadafajhjeahmafdmggbp?hl=zh-CN)
+
+- 免费http代理
+  
+
+- 检查当前ip地址
+
+  - http://ip138.com
+  - http://ip185.com
+
 
 书籍
 =====
