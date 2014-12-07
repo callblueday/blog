@@ -103,6 +103,13 @@ https://github.com/huxiaoqi567/xscroll
 http://huxiaoqi567.github.io/demos.html
 
 
+字体服务
+-------
+- [Typekit](http://typekit.com)
+- [360 公共前端库](http://libs.useso.com/)
+- [google 字体](http://www.google.com/fonts)
+
+
 优秀的图片占位服务
 ---------------
 http://placehold.it
@@ -240,10 +247,9 @@ mac 资源
     可以有私人仓库，并邀请成员
 
 
-
 node-js
-------
-http://mean.io/
+-------
+http://nodeschool.io/#workshoppers
 
 
 js工具
@@ -263,6 +269,11 @@ pm2
 
 npm--forever
 --------------
+
+
+学习编程的文章
+------------
+
 
 
 模板
@@ -412,6 +423,13 @@ google material ui 的设计风格
 
 http://material-ui.com/
 
+
+不错的博客
+---------
+- 奇舞周刊
+- coolshell.cn
+- 码农周刊
+  http://blog.manong.io/technologies-we-use/
 
 
 书籍

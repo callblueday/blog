@@ -135,6 +135,10 @@ a:visited { color: #654321; }
 /*
 /*--------------------------------------------------*/
 
+.post .img-wrap {
+  text-align: center;
+}
+
 /* standard */
 .post pre {
   /*border: 1px solid #ddd;
