@@ -4,32 +4,29 @@ layout: default
 
 <style>
     .essay-time {
-        border: 1px solid #ddd;
-        -webkit-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
         font-size: 12px;
         padding: 2px 3px;
 
         position: absolute;
-        left: 0px;
-        top: 0;
+        right: 0px;
+        bottom: -4px;
+        color: #808080;
         
     }
     .essay-snippet {
-        padding: 40px 15px 15px 0px;
+        padding: 40px 15px 25px 0px;
         font-family: '微软雅黑', sans-serif;       
         position: relative;
         line-height: 1.8em;
         margin: 20px 0;
+        border-bottom: 1px solid #ddd;
     }
 </style>
 
 <div class="essay-snippet">
     开始订阅rss。固定的时间主要用来学习，不做琐碎的事，琐碎的事安排在琐碎的时间里。我多数时候没有太多定力，要坚持做些事情，在开始的时候真需要对自己多一些强迫，形成习惯。
-
-    我现在的时间安排主要是这样，早上去公司做事前，会先读几小节技术书，正在读的是《javascript高级程序设计（第二版）》，基础不牢固，想要提升，还是很麻烦的。所以想重新过一遍。晚上睡前的时间，主要是看20分钟左右的博客。其他的事再安排。
+    <br>
+    我现在的时间安排主要是这样，早上去公司做事前会先读几小节技术书，正在读的是《javascript高级程序设计（第二版）》，基础不牢固,想要提升还是很麻烦的,所以想重新过一遍。晚上睡前的时间，主要是看20分钟左右的博客,其他的事再安排。,其他的事再安排。
     <span class="essay-time">2014-12-07 23:56</span>
 </div>
 

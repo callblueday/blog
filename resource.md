@@ -423,13 +423,14 @@ google material ui 的设计风格
 
 http://material-ui.com/
 
-
-不错的博客
+订阅
 ---------
 - 奇舞周刊
 - coolshell.cn
 - 码农周刊
   http://blog.manong.io/technologies-we-use/
+
+- 人文？
 
 
 书籍

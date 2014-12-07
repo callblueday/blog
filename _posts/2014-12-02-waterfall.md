@@ -9,7 +9,7 @@ categories: code
 
 有一个简单的实现办法是，基于css3的column属性。比如说我想实现两列瀑布流
 
-  <style>
+<!--   <style>
   ul {
       column-count: 2;
       column-gap: 40px;
@@ -32,9 +32,10 @@ categories: code
     <li></li>
     <li></li>
     <li></li>
-  </ul>
+  </ul> -->
+    //代码待整理
 
-在与[poutbo](https://github.com/poutbo)讨论的过程中，他提出了一个基于多列的实现想法，我觉得很赞，在这里记录一下。
+在与[poutbo](https://github.com/poutbo)讨论的过程中，他提出了一个基于多列，数据选择排放的实现想法，我觉得很赞，在这里记录一下。
 
 
 
