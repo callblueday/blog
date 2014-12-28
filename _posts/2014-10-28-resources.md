@@ -105,6 +105,7 @@ https://github.com/huxiaoqi567/xscroll
 
 http://huxiaoqi567.github.io/demos.html
 
+http://hammerjs.github.io/
 
 字体服务
 -------
@@ -194,6 +195,9 @@ css
 将本地地址转换成线上地址
 ---------------------
 - [ngrok](https://ngrok.com/) 内网穿透利器
+  将本地的server，链接到线上
+
+ngrok -authtoken MtiLzZti3Ump4JeFoKy8 80
 
 
 字体
@@ -204,8 +208,11 @@ css
 
 - [使用方法](http://www.chinaz.com/free/2012/0815/269267.shtml)
 
-- [fontello] 用图表代替字体生成器
-  - http://fontello.com/
+- font 字体来代替小图标
+    http://fontello.com/
+    [相关文章](http://isux.tencent.com/icon-font.html)
+
+    https://icomoon.io/app/#/select
 
 
 html模板
@@ -249,6 +256,11 @@ mac 资源
   - [bitbucket](http://bitbuck)
     可以有私人仓库，并邀请成员
 
+内容发布站点
+----------
+- wecenter.com
+  - WeCenter 是一款知识型的社交化开源社区程序，专注于企业和行业社区内容的整理、归类、检索和再发行。
+
 
 node-js
 -------
@@ -274,9 +286,9 @@ npm--forever
 --------------
 
 
-学习编程的文章
+学习编程的站点
 ------------
-
+  - [美女老师教] https://codebabes.com/courses
 
 
 模板

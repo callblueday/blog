@@ -50,7 +50,7 @@ categories: code
 
 2. 选择一种编程语言：JavaScript，Ruby或者Python。每种语言有自己的强项，都有与之相对的用于构建web应用的工具（分别是Node.js，Rails或Django）。除非你自己明确知道自己该学哪种语言，否则我推荐你学习JavaScript，因为它使用最广泛。
 
-3. 选择一门在线课程。这里有一些选项供你选择：如果对JavaScript感兴趣，去FreeCodeCamp.com或者[NodeSchool.io](http://nodeschool.io/)上找；如果对Ruby感兴趣，去[TheOdinProject.com](http://www.theodinproject.com/)或者[TeamTreehouse.com](http://teamtreehouse.com/)上找；如果对Python感兴趣，去[Udacity.com](http://teamtreehouse.com/)上找。相信设计这些课程的老师们的智慧，按照建议的顺序完成这门课程，不要跳来跳去。
+3. 选择一门在线课程。这里有一些选项供你选择：如果对JavaScript感兴趣，去<a href="http://freeCodeCamp.com" target="_blank">FreeCodeCamp.com</a>或者<a href="http://nodeschool.io" target="_blank">NodeSchool.io</a>上找；如果对Ruby感兴趣，去[TheOdinProject.com](http://www.theodinproject.com/)或者[TeamTreehouse.com](http://teamtreehouse.com/)上找；如果对Python感兴趣，去<a href="http://teamtreehouse.com/"  target="_blank">Udacity.com</a>上找。相信设计这些课程的老师们的智慧，按照建议的顺序完成这门课程，不要跳来跳去。
 
 4. 买一个新的/旧的MacBook，或者在你现在的电脑上安装Ubuntu Linux。至于其他你可能需要的工具，按照在线课程的建议安装即可。
 一旦你做出了这些决定，剩下的路就太简单了。你只要保持清醒，不要被周围的新工具所迷惑。一周七天，每天学一点在线课程，哪怕一次只有半小时。相信你今天做出的决定。
