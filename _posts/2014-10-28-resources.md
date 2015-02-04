@@ -8,6 +8,74 @@ categories: code
 常用工具
 ========
 
+代码反编译
+---------
+
+
+日期控件
+------
+bootstrap datetimepicker
+http://eonasdan.github.io/bootstrap-datetimepicker/
+
+datetimepicker
+
+
+jquery ui datetimepicker
+
+
+
+选择框插件
+---------
+choosen 下拉选择框插件
+http://harvesthq.github.io/chosen/
+https://github.com/harvesthq/chosen
+
+
+
+提示工具，适合做后台
+-------------------
+tipsy
+http://tooltipsy.com/
+
+
+滚动条插件
+---------
+nanoscroll
+http://jamesflorentino.github.io/nanoScrollerJS/
+
+github 上搜索scrollbar
+- nanoscroll 只支持纵向滚动条，做的很好，兼容ie，firefox，chrome，safari,适合只有纵向滚动的需求
+- jScrollPane 支持横纵向，兼容性做的很好，ie7+,chrome,firefox,safari，比nanosroll大些，宽度自适应需要手工处理，没有nanoscroll做的好
+- antiscroll 支持横纵向滚动条，OS的firefox，ie下有bug，不建议用，特殊情况考虑
+
+
+淘宝ip地址库
+-----------
+http://ip.taobao.com/
+
+接口说明
+1. 请求接口（GET）：
+http://ip.taobao.com/service/getIpInfo.php?ip=[ip地址字串]
+2. 响应信息：
+（json格式的）国家 、省（自治区或直辖市）、市（县）、运营商
+3. 返回数据格式：
+{"code":0,"data":{"ip":"210.75.225.254","country":"\u4e2d\u56fd","area":"\u534e\u5317",
+"region":"\u5317\u4eac\u5e02","city":"\u5317\u4eac\u5e02","county":"","isp":"\u7535\u4fe1",
+"country_id":"86","area_id":"100000","region_id":"110000","city_id":"110000",
+"county_id":"-1","isp_id":"100017"}}
+其中code的值的含义为，0：成功，1：失败。
+ 
+优势：
+1. 提供国家、省、市、县、运营商全方位信息，信息维度广，格式规范。
+2. 提供完善的统计分析报表，省准确度超过99.8%，市准确度超过96.8%，数据质量有保障。
+
+
+
+小工具
+------
+- js eval方式加密
+http://www.codefans.net/jscss/code/4586.shtml
+
 
 图片轮播插件
 -------------
@@ -44,6 +112,15 @@ categories: code
   - vcastr3
 
     网页视屏播放器插件，可以兼容ie7+。可控性很高
+
+设计工具
+--------------
+- ps play 手机看photoshop设计稿
+  http://isux.tencent.com/app/psplay
+
+- 原型工具
+  - 
+
 
 
 向上滚动插件
@@ -165,6 +242,11 @@ http://daneden.github.io/animate.css/
   - [goratchet](http://goratchet.com/examples/)
   - [everypost](http://everypost.me/)
 
+
+前端框架
+--------
+  - [jeet](http://jeet.gs/)
+
 sublime
 -----------
 - git 插件
@@ -218,6 +300,9 @@ ngrok -authtoken MtiLzZti3Ump4JeFoKy8 80
 html模板
 ----------
  - [handlebarsjs](http://handlebarsjs.com/)
+
+ - color-admin 响应式的后台管理整站模板
+ http://www.seantheme.com/color-admin-v1.3/
 
 公共服务
 ------
@@ -438,6 +523,7 @@ google material ui 的设计风格
 
 http://material-ui.com/
 
+
 订阅
 ---------
 - 奇舞周刊
@@ -463,3 +549,8 @@ http://material-ui.com/
     - [markdown 语法](http://wowubuntu.com/markdown/)
     - [github book](http://gitbookio.github.io/)
 
+
+
+
+怎么构造效果库呢，很多效果，看了
+----------------------------
