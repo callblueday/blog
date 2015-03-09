@@ -213,14 +213,6 @@ html模板
 ------
 - [360公共库cdn](http://libs.useso.com/)
 
-- 具体
-  ```
-  # jquery
-  <script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
-  # jquery tmpl
-  <script src="http://ep.fasteng.net/common/jquery.tmpl.min.js"></script>
-  ```
-
 rss 阅读器
 ----------
 Reeder
@@ -407,8 +399,6 @@ mean
 http://mean.io/
 mongodb + express + angularjs + node
 angular 不是很喜欢
-
-
 
 
 meteor

@@ -5,37 +5,56 @@ date:   2014-10-28 01:58:40
 categories: code
 ---
 
-常用工具
-========
+### 常用工具
+
+range selector
+--------------
+http://www.jqueryrain.com/demo/jquery-range-slider/
+
+jquery.nstSlider.js
+-------------------
+http://www.jqueryrain.com/?eL8Uj3ZQ
+
+
+
+遮罩工具：mask
+--------
+jquery.bpopup.min.js
+http://www.dinbror.dk/bpopup/
+http://dinbror.dk/blog/bPopup/
 
 代码反编译
 ---------
-
+js反编译
+http://jsnice.org/
 
 日期控件
-------
+-------
 bootstrap datetimepicker
 http://eonasdan.github.io/bootstrap-datetimepicker/
 
 datetimepicker
 
-
 jquery ui datetimepicker
 
 
+### 适合做后台的插件
+
+tipsy
+------
+http://tooltipsy.com/
+提示工具
+
+codemirror
+----------
+http://codemirror.net/
+代码编辑框
 
 选择框插件
 ---------
 choosen 下拉选择框插件
 http://harvesthq.github.io/chosen/
 https://github.com/harvesthq/chosen
-
-
-
-提示工具，适合做后台
--------------------
-tipsy
-http://tooltipsy.com/
 
 
 滚动条插件
@@ -46,7 +65,6 @@ http://jamesflorentino.github.io/nanoScrollerJS/
 github 上搜索scrollbar
 - nanoscroll 只支持纵向滚动条，做的很好，兼容ie，firefox，chrome，safari,适合只有纵向滚动的需求
 - jScrollPane 支持横纵向，兼容性做的很好，ie7+,chrome,firefox,safari，比nanosroll大些，宽度自适应需要手工处理，没有nanoscroll做的好
-- antiscroll 支持横纵向滚动条，OS的firefox，ie下有bug，不建议用，特殊情况考虑
 
 
 淘宝ip地址库
@@ -68,7 +86,6 @@ http://ip.taobao.com/service/getIpInfo.php?ip=[ip地址字串]
 优势：
 1. 提供国家、省、市、县、运营商全方位信息，信息维度广，格式规范。
 2. 提供完善的统计分析报表，省准确度超过99.8%，市准确度超过96.8%，数据质量有保障。
-
 
 
 小工具
