@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "资源库"
+title:  "web开源库"
 date:   2014-10-28 01:58:40
 categories: code
 ---

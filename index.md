@@ -30,6 +30,13 @@ layout: default
 </style>
 
 <div class="essay-snippet">
+    <p>学习者把图书的知识，转化成了自己的能力。</p>
+
+    <span class="essay-time">2015-03-19 15:10</span>
+</div>
+
+
+<div class="essay-snippet">
     <p>距离上次更新又是过了好久，这中间只零星的记录过一些使用到的库和文章更新。</p>
 
     <p>一直都在做的是web开发，这个博客一开始的目的也是想用来梳理一下写代码的思路，记录并解决遇到的常见问题，顺便能整理常用的代码库，使开发思路和结构能变得比较有条理。我一直都觉得学习什么应该并没有那么难，只是需要去寻找到合适的方法，当步骤和思路清晰时，效率会提升很多。博客还是想坚持更新下去，单是前端的开发目前还没有梳理的很清楚，希望可以在实践的过程中，能够让思路更清晰。</p>
@@ -42,7 +49,6 @@ layout: default
             <li>后台框架掌握一个</li>
         </ul>
     </p>
-
 
     <span class="essay-time">2015-03-18 10:10</span>
 </div>
@@ -231,7 +237,12 @@ layout: default
 </div>
 
 
-
+<div class="comments" style="margin-top: 10px;">
+  <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2007353"></script>
+<!-- UY END -->
+</div>
 
 
 
