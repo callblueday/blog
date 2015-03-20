@@ -27,7 +27,21 @@ layout: default
     ul.order-ul {
         list-style-type: decimal;
     }
+    .text-indent {
+        text-indent: 2em;
+    }
 </style>
+
+<div class="essay-snippet">
+    <p>群聊天里大家在聊什么是全栈工程师，有位同学的看法蛮有共鸣。</p>
+
+    <blockquote>『  每个端都熟悉一整套开发方式。有两种情况，我现在看到的，一种是从初中或者更早入行的，到大学毕业，一直到现在，很多技术都已经看过玩过，而且已经形成程序员习惯。另外一种就是，普通人，大学开始，然后积累到30岁，才能到达 full stack。所以，其实就是积累。 』</blockquote>
+
+
+    <span class="essay-time">2015-03-20 23:10</span>
+</div>
+
+
 
 <div class="essay-snippet">
     <p>学习者把图书的知识，转化成了自己的能力。</p>
