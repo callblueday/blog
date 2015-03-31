@@ -14,8 +14,15 @@ categories: code
   - 目前个人常用的工具是，[bootstrap]() 、[artdialog]()
 
 
+背景小点
+-------
+- [背景点](https://github.com/jnicol/particleground)
+
 图片轮播插件
 -------------
+- [Ninja Slider](http://www.menucool.com/responsive-slider#view2) 响应式，支持事件
+- [easy-slider](http://cssglobe.com/easy-slider-17-numeric-navigation-jquery-slider/)  简单，但不支持滑动后的事件
+
 - [flexSlider2](http://flexslider.woothemes.com/)
   比较轻量级
 

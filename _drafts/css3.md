@@ -1,3 +1,7 @@
+cubic-bezier css3中的动画效果应用：
+
+
+
 js 判断是否支持css3
 ================
 var supports = (function() {
