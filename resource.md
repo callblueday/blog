@@ -11,7 +11,7 @@ categories: code
 
 前端
 ========
-  - 目前个人常用的工具是，[bootstrap]() 、[artdialog]()
+  - 目前个人常用的工具是，[bootstrap](http://bootcss.com) 、[artdialog](http://aui.github.io/artDialog/) (待整理)
 
 
 背景小点
@@ -224,6 +224,8 @@ html模板
 公共服务
 ------
 - [360公共库cdn](http://libs.useso.com/)
+
+  - http://libs.useso.com/js/jquery/1.8.2/jquery.min.js
 
 rss 阅读器
 ----------
