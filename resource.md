@@ -6,7 +6,7 @@ categories: code
 ---
 
 
-按工作场景梳理WEb开源库（待更新...）
+按工作场景梳理WEB开源库（待更新...）
 
 
 前端
@@ -225,7 +225,7 @@ html模板
 ------
 - [360公共库cdn](http://libs.useso.com/)
 
-  - http://libs.useso.com/js/jquery/1.8.2/jquery.min.js
+  - http://libs.useso.com/js/jquery/1.8.3/jquery.min.js
 
 rss 阅读器
 ----------
