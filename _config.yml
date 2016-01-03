@@ -1,4 +1,4 @@
 baseurl:
 name: callblueday 的空间
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: pygments
