@@ -15,7 +15,7 @@ title: 零碎
         
     }
     .essay-snippet {
-        padding: 40px 15px 25px 0px;
+        padding: 40px 0px 25px 0px;
         font-family: '微软雅黑', sans-serif;       
         position: relative;
         line-height: 1.8em;
@@ -97,8 +97,7 @@ title: 零碎
         2. 具体每个模块的功能尽量单一独立，为其他模块提供接口
 
     写代码的时候，先写主干模块，怎么实现不用先考虑，把逻辑写出来。     
-    <br><br>
-    参考资源：<a href="http://mp.weixin.qq.com/s?__biz=MzA3NDM1NjUwMQ==&mid=201233410&idx=1&sn=5e106ce232de54462b179625ec6c3390">为什么你的代码如此难以理解</a>
+    
     <span class="essay-time">2014-11-28</span>
 </div>
 
@@ -166,11 +165,11 @@ title: 零碎
 
 
 <div class="essay-snippet">
-    学习框架，更多的是理解其设计的理念，比如文件结构，api接口的通信路径，从而对编程本身加深理解。
+    学习框架，更多的是理解其设计的理念，比如文件f结构，api接口的通信路径，从而对编程本身加深理解。
     框架不过就是用设计好的（也有约定俗称的习惯）结构让代码之间更清晰，结构化的进行通信。其中`通信`
     是一个很重要的点。它包含了文件结构的安排，api接口的路径设定以及通信方式。
 
-    像[RESTFul](http://zh.wikipedia.org/zh/REST)，就是一种web服务的设计风格和理念。[阮一峰-理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+    像<a href="http://zh.wikipedia.org/zh/REST">RESTFul</a>，就是一种web服务的设计风格和理念。<a href="http://www.ruanyifeng.com/blog/2011/09/restful.html">阮一峰-理解RESTful架构</a>
     <span class="essay-time">2014-10-4</span>
 </div>
 
@@ -257,10 +256,10 @@ title: 零碎
 </div>
 
 
-<div class="comments" style="margin-top: 20px;">
-  <!-- UY BEGIN -->
+<!-- UY BEGIN -->
+<!-- <div class="comments" style="margin-top: 20px;">
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2007353"></script>
+</div> -->
 <!-- UY END -->
-</div>
 
