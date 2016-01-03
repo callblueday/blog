@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{site.baseurl}}/css/syntax.css">
+{% include head.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-    </head>
-    <body>
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	{% include menu.html %}
+    
+    <!-- Icon menu -->
+	  <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
+	  	<div id="menu"></div>
+	  </a>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
-            <a class="extra" href="{{site.baseurl}}/blog.html">解决问题</a>
-            <a class="extra" href="{{site.baseurl}}/books.html">读书</a>
-            <a class="extra" href="{{site.baseurl}}/resource.html">WEB开源库</a>
-            <a class="extra" href="{{site.baseurl}}/aboutme.html">了解我</a>
-          </div> <!-- header ends -->
+      <!-- Header -->
+      {% if site.custom_header == true %}
+        {% include header-custom.html %}
+      {% else %}
+        {% include header.html %}
+      {% endif %}
 
-          {{ content }}
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Github 地址<br />
-                邮箱<br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/callblueday">github.com/callblueday</a><br />
-                callblueday@163.com<br />
-              </p>
-              <p><i>This is my talk.</i></p>
-            </div>
-          </div> <!-- footer ends -->
+			{{ content }}
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page == 1 %}
+            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% elsif paginator.previous_page%}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% else %}
+            <span class="page-item">&laquo;</span>
+          {% endif %}
+        
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="page-item">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
+        
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
+          {% else %}
+            <span class="page-item">&raquo;</span>
+          {% endif %}
         </div>
+        {% endif %}
 
-    </body>
+	  </div>
+	    
+	    <!-- Footer -->
+	    {% include footer.html %}
+
+	    <!-- Script -->
+      {% include script.html %}
+
+	</div>
+</body>
 </html>

@@ -1,0 +1,49 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+pre {
+    font-family: 'Menlo', sans-serif;
+    font-size: 14px;
+}
+
+.post ul li {
+    margin-left: 1em;
+}
+
+body {
+    font-family: 'lantinghei SC', sans-serif;
+}
+
+.site-logo {
+    width: 115px;
+    height: 115px;
+    border-radius: 115px; 
+    max-height: 230px!important;
+}
+
+footer {
+    display: none;
+}
+nav footer {
+    display: block;
+    padding: 0 15px;
+    line-height: 1.7em;
+    text-align: left;
+}
+nav footer a,
+footer a {
+    color: #fff!important;
+    display: inline!important;
+    background: transparent!important;
+    text-decoration: none;
+}
+nav footer a,
+footer a:hover {
+    text-decoration: underline;
+    background: transparent!important;
+    font-weight: normal!important;
+}
+
+#nav-menu-left {
+    cursor: pointer;
+}

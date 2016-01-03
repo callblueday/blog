@@ -1,4 +1,35 @@
-baseurl:
-name: callblueday 的空间
-markdown: kramdown
-highlighter: pygments
+# Site settings
+title: callblueday's blog | connected
+description: "A minimal blog template, build with Jekyll."
+url: "http://callblueday.com"
+author:
+  name: "callblueday"
+  email: "callblueday@163.com"
+  url: "http://callblueday.com"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown  
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+gems: [jekyll-paginate]
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: true
+reverse: true
