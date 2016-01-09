@@ -1,9 +1,9 @@
 ---
-title: socket.io 实战应用
+title: 从零写个socket.io示例
 date: 2016-01-09T23:21:15+08:00
 ---
 
-什么是socket？
+什么是socket和socket.io？
 
 **websocket**是一种长连接协议，[socket.io](http://socket.io/)是websocket的一个node版本库，但它封装了多种实时通信方式，像"websocket" , "htmlfile" , "xhr-polling" , "jsonp-polling"，如果浏览器不支持WebSocket协议也可以平稳退化成其它的。
 

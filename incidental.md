@@ -34,6 +34,12 @@ title: 零碎
 </style>
 
 <div class="essay-snippet">
+    <p>慢慢改变学习上的一个惰性习惯，想到就去做到，不等待。</p>
+
+    <span class="essay-time">2016-01-10 00:50</span>
+</div>
+
+<div class="essay-snippet">
     <p>深夜里听音乐，随便点一首虾米里收藏的歌曲播放，意淫中...</p>
 
     <span class="essay-time">2015-04-01 00:50</span>
