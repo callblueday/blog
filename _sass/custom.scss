@@ -47,3 +47,18 @@ footer a:hover {
 #nav-menu-left {
     cursor: pointer;
 }
+
+strong {
+    font-weight: 600;
+}
+
+.rights {
+    padding: 30px 15px;
+    background: #9CCAF1;
+    border-radius: 8px;
+    font-size: 14px;
+    margin: 50px 0;
+}
+.rights a {
+    color: #222!important;
+}
