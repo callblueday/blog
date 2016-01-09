@@ -51,7 +51,7 @@ footer a:hover {
 strong {
     font-weight: 600;
 }
-
+/* rights */
 .rights {
     padding: 30px 15px;
     background: #9CCAF1;
@@ -61,4 +61,11 @@ strong {
 }
 .rights a {
     color: #222!important;
+}
+
+/* comments */
+.comment-count {
+    display: inline-block!important;
+    margin-left: 10px;
+    display: none;
 }
