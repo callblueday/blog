@@ -13,7 +13,7 @@ markdown: kramdown
 source: .
 destination: ./_site
 permalink: /:title
-paginate: 8
+paginate: 4
 gems: [jekyll-paginate]
 paginate_path: /page:num/
 
